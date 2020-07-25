@@ -1,0 +1,38 @@
+body{
+    background: #efefef; 
+}
+
+/*ボタン*/
+#btn{
+width:200px;
+height: 200px;
+background: #f1878b;
+border-radius:50%;
+margin: 30px auto;
+text-align: center;
+line-height:200px;
+color: #fff;
+font-weight:bold;
+font-size:42px;
+cursor:pointer;
+box-shadow: 0 10px 0 #ecbfbc;
+user-select: none;
+
+}
+
+/*カーソルをボタンの上に置いたときのエフェクト*/
+#btn:hover{
+    opacity: 0.9;
+}
+
+
+/*クリック時のボタン*/
+#btn:active{
+    box-shadow: 0 5px 0 #ecc1bc;
+    margin-top: 35px 
+}
+
+#title{
+    text-align: center;
+}
+
